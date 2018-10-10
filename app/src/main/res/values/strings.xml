@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Simple Calculator</string>
+    <string name="btnZero">0</string>
+    <string name="btnOne">1</string>
+    <string name="btnTwo">2</string>
+    <string name="btnThree">3</string>
+    <string name="btnFour">4</string>
+    <string name="btnFive">5</string>
+    <string name="btnSix">6</string>
+    <string name="btnSeven">7</string>
+    <string name="btnEight">8</string>
+    <string name="btnNine">9</string>
+    <string name="btnCalc">=</string>
+    <string name="btnClear">C</string>
+    <string name="btnAdd">+</string>
+    <string name="btnSubtract">-</string>
+    <string name="btnMultiply">*</string>
+    <string name="btnDivide">/</string>
+    <string name="btnSquareRoot">√</string>
+    <string name="btnPourcentCalc">% Calc</string>
+    <string name="btnLeftBracket">(</string>
+    <string name="btnRightBracket">)</string>
+    <string name="txtOperations">OPERATIONS:</string>
+    
+    <string name="whatIs">What Is</string>
+    <string name="pourcentOf">% of</string>
+    <string name="comma">,</string>
+    <string name="calc">Calculate</string>
+    <string name="isWhatPercentOf"> is what percent of</string>
+    <string name="increaseDecreasePercentage">What is the percentage increase/decrease</string>
+    <string name="from">from</string>
+    <string name="to">to</string>
+</resources>

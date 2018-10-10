@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.simpleCalculator.r3v3nan7.simpleCalculator.MainActivity"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/txt_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:height="50dp"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnOne"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/btnOne"/>
+
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/btnTwo"/>
+
+    <Button
+        android:id="@+id/btnThree"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/btnThree"/>
+
+    <Button
+        android:id="@+id/btnFour"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="@string/btnFour"/>
+
+    <Button
+        android:id="@+id/btnFive"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="130dp"
+        android:text="@string/btnFive"/>
+
+    <Button
+        android:id="@+id/btnSix"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="260dp"
+        android:text="@string/btnSix"/>
+
+    <Button
+        android:id="@+id/btnSeven"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:text="@string/btnSeven"/>
+
+    <Button
+        android:id="@+id/btnEight"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="130dp"
+        android:text="@string/btnEight"/>
+
+    <Button
+        android:id="@+id/btnNine"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="260dp"
+        android:text="@string/btnNine"/>
+
+    <Button
+        android:id="@+id/btnZero"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:text="@string/btnZero"/>
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="130dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:text="@string/btnCalc"/>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="260dp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffff"
+        android:text="@string/btnClear"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtOperations"
+        android:textAlignment="center"
+        android:layout_marginTop="300dp"
+        android:textSize="30dp"/>
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="@string/btnAdd"/>
+
+    <Button
+        android:id="@+id/btnSubtract"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="130dp"
+        android:text="@string/btnSubtract"/>
+
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="260dp"
+        android:text="@string/btnMultiply"/>
+
+    <Button
+        android:id="@+id/btnDivide"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:text="@string/btnDivide"/>
+
+    <Button
+        android:id="@+id/btnSquare"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="130dp"
+        android:text="@string/btnSquareRoot"/>
+
+    <Button
+        android:id="@+id/btnPourcent"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="260dp"
+        android:text="@string/btnPourcentCalc"/>
+
+
+    <Button
+        android:id="@+id/btnLeftBracket"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:text="@string/btnLeftBracket"/>
+
+    <Button
+        android:id="@+id/btnRightBracket"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="130dp"
+        android:text="@string/btnRightBracket"/>
+
+    <Button
+        android:id="@+id/btnComma"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="260dp"
+        android:text="@string/comma"/>
+
+
+</RelativeLayout>
